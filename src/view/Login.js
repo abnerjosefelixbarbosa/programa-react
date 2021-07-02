@@ -6,12 +6,14 @@ const Login = () => {
     <div className="body">
       <h1 className="titulo">Olá mundo</h1>
       <br></br>
-      <button type="button" className="page1" onClick={Page1}>Page1</button>
+      <button type="button" className="logar" onClick={Logar}>
+        Logar
+      </button>
     </div>
   )
 }
 
-const Page1 = () => {
+const Logar = () => {
   alert('ola')
 }
 
