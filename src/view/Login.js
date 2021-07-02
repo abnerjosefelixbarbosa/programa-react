@@ -2,6 +2,9 @@ import React from 'react'
 import './css/login.css'
 
 const Login = () => {
+  const Logar = () => {
+    alert('ai')
+  }
   return (
     <div className="body">
       <h1 className="titulo">Olá mundo</h1>
@@ -13,8 +16,5 @@ const Login = () => {
   )
 }
 
-const Logar = () => {
-  alert('ola')
-}
-
 export default Login
+
