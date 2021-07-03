@@ -1,6 +1,6 @@
 //import
 import React from 'react'
-import Routes from './routes';
+import Routes from './router/routes';
 //função App
 const App = () => {
     return (

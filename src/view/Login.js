@@ -4,6 +4,7 @@ import './css/login.css'
 const Login = () => {
   const Logar = () => {
     alert('ai')
+    window.location.href = 'page1'
   }
   return (
     <div className="body">
